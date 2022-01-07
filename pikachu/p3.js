@@ -3,7 +3,7 @@ var mensagem;
 
 
 
-function pikachu1(){
+function pikachu3(){
     while(mensagem != 1 || mensagem != 2){
         mensagem = prompt('O que fazer agora? \n \n 1 - Ir sozinho mesmo, eu me garanto. \n \n 2 - Chamar o treinador');
 
@@ -27,4 +27,4 @@ function pikachu1(){
         }
     }
 }
-setTimeout(pikachu1, 2000);
+setTimeout(pikachu3, 2000);

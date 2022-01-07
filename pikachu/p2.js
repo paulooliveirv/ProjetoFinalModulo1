@@ -3,7 +3,7 @@ var mensagem;
 
 
 
-function pikachu1(){
+function pikachu2(){
     while(mensagem != 1 || mensagem != 2){
         mensagem = prompt('O que fazer agora? \n \n 1 - Enfrentar o Gyarados \n \n 2 - Checar com mais calma');
 
@@ -25,4 +25,4 @@ function pikachu1(){
         }
     }
 }
-setTimeout(pikachu1, 2000);
+setTimeout(pikachu2, 2000);
