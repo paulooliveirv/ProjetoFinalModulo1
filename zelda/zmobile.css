@@ -1,9 +1,17 @@
 @media(max-width: 1150px){
+    .conteudo{
+        width: 70%;
+    }
     h1{
         font-size: 2rem;
     }
-    img{
+    .z-principal{
         margin: 0.6rem;
+    }
+    p{
+        padding: 0 1rem;
+        margin: 2rem;
+        font-size: 1.5rem;
     }
 }
 
@@ -14,14 +22,14 @@
     h1{
         font-size: 3rem;
     }
-    img{
+    .z-principal{
         margin: 0.6rem;
-        width: 22rem;
+        width: 17rem;
         height: 13rem;
     }
     p{
         padding: 0 1rem;
-        margin: 3rem;
+        margin: 2rem;
         font-size: 1.5rem;
     }
 }
@@ -30,7 +38,7 @@
     h1{
         font-size: 2rem;
     }
-    img{
+    .z-principal{
         margin: 0.6rem;
         width: 16rem;
         height: 10rem;
@@ -54,14 +62,14 @@
     h1{
         font-size: 2rem;
     }
-    img{
+    .z-principal{
         margin: 0.6rem;
         width: 16rem;
         height: 9rem;
     }
     p{
         padding: 0rem;
-        margin: 3rem;
+        margin: 2rem;
         font-size: 1.5rem;
     }
 }
@@ -73,14 +81,14 @@
     h1{
         font-size: 1.5rem;
     }
-    img{
+    .z-principal{
         margin: 0.6rem;
         width: 13rem;
-        height: 7rem;
+        height: 9rem;
     }
     p{
         padding: 0rem;
-        margin: 3rem;
+        margin: 2rem;
         font-size: 1.3rem;
     }
     .start{
