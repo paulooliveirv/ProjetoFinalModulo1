@@ -1,0 +1,142 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    color: rgb(0, 0, 0);
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+
+@font-face {
+        font-family: 'nuhana';
+
+        src: url(NuHanafudaya-Regular-v1.0.1.otf);
+        font-weight: normal;
+        font-style: normal;
+    
+
+}
+body{
+    background-image: url(images/background.png);
+    display: flex;
+    flex-direction: column;
+}
+
+.invisivel{
+    display: none;
+}
+.apresentacao{
+    background-color: rgba(255, 255, 255, 0.100);
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(15px);
+    padding-top: 3rem;
+    text-align: center;
+    width: 100%;
+    height: 90%;
+}
+.textoInicio{
+    color: white;
+    font-size: 1.5rem;
+    padding-bottom: 1.2rem;
+}
+.imgPrincipal{
+    margin: 2.2rem;
+    width: 25rem;
+    height: 5.5rem;
+}
+h1{
+    align-content: center;
+    font-size: 4.8rem;
+}
+.intro{
+    margin: 0 16rem 4rem 16rem;
+    font-size: 1.3rem;
+}
+h2{
+    font-size: 1.4rem;
+}
+.personagens{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 5rem;
+    margin-bottom: 1.2rem;
+}
+.nomes{
+    font-size: 1.5rem;
+}
+h1, p, h2{
+    font-family: 'nuhana', 'Bebas Neue', cursive;
+    font-weight: bold;
+}
+.box-persona:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.escolhas{
+    width: 9rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.8rem;
+}
+
+footer{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    width: 100%;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    line-height: 6rem;
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+a{
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+}
+

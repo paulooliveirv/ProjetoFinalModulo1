@@ -1,0 +1,39 @@
+@media (max-width: 1000px){
+    .intro{
+        margin: 0px 20px;
+    }
+}
+
+@media (max-width: 540px){
+    .footer{
+        flex-wrap: wrap;
+        line-height: 3rem;
+    }
+}
+
+@media (max-width: 440px){
+    .textoInicio{
+        padding-left: 4rem;
+    }
+    .mundo{
+        padding-left: 3rem;
+    }
+    .imgPrincipal{
+        margin-left: 0px;
+        padding-left: 1.2rem;
+    }
+    .intro{
+        margin-left: 5rem;
+    }
+    h2{
+        margin-top: 3rem;
+        margin-left: 3rem;
+    }
+    .personagens{
+        padding-left: 2.5rem;
+    }
+    .footer{
+        padding-left: 2rem;
+        line-height: 1.5rem;
+    }
+}
