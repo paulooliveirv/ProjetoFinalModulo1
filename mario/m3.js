@@ -26,4 +26,4 @@ function mario1(){
         }
     }
 }
-setTimeout(mario1, 2000);
+setTimeout(mario1, 6000);

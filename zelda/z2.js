@@ -22,4 +22,4 @@ function zelda1(){
         }
     }
 }
-setTimeout(zelda1, 2000);
+setTimeout(zelda1, 6000);
