@@ -27,5 +27,5 @@ function pikachu3(){
         }
     }
 }
-setTimeout(pikachu3, 8000);
+setTimeout(pikachu3, 3000);
 

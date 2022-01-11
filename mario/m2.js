@@ -25,4 +25,4 @@ function mario2(){
         }
     }
 }
-setTimeout(mario2, 8000);
+setTimeout(mario2, 3000);
